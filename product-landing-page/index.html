@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TaskTactix Landing Page</title>
+    <meta name="description" content="A minimalist productivity app" />
+    <meta name="author" content="Venrayxyz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+      <header id="header" class="navbar">
+        <div class="navbar-container">
+          <div class="logo">
+            <h1><img src="https://www.svgrepo.com/show/530592/creativity.svg" alt="logo" class="logo" id="header-img"> TaskTactix</h1>
+          </div>
+          <nav class="nav-links" id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#video" class="nav-link">How it works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </nav>
+        </div>
+      </header>
+    <div class="container">
+      <main>
+        <section class="hero">
+          <h2>Become the commander of your day!</h2>
+          <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+            <label for="email"
+              ><input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+            /></label>
+            <input type="submit" value="Get Started" id="submit" />
+          </form>
+        </section>
+        <section class="features-section" id="features">
+          <div class="feature">
+            <div class="icon">
+              <i class="material-icons">access_alarm</i>
+            </div>
+            <div class="desc">
+              <h2>Pomodoro Timer</h2>
+              <p>Boost your focus using structured work cycles with built-in breaks.
+TaskTactix helps you avoid burnout while getting more done in less time.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="icon">
+              <i class="material-icons">assignment_turned_in</i>
+            </div>
+            <div class="desc">
+              <h2>Task Management</h2>
+              <p>Prioritize what matters and keep track of everything in one place. Organize your day with simple, distraction-free task lists.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="icon">
+              <i class="material-icons">data_usage</i>
+            </div>
+            <div class="desc">
+              <h2>Statistics</h2>
+              <p>Visualize your progress with productivity scores, task streaks, and focus trends. Reflect on your habits and fine-tune your performance over time.</p>
+            </div>
+          </div>
+        </section>
+        <section class="video">
+          <iframe width="520" height="320" id="video"
+  src="https://www.youtube.com/embed/tOBCyMdy8_k"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+        </section>
+
+        <section id="pricing">
+          <div class="pricing">
+            <div class="pricing-card basic">
+              <h2>Basic</h2>
+              <h3>$50</h3>
+              <p>Essential Pomodoro focus timer</p>
+              <p>Simple task list management</p>
+              <p>Single-device access</p>
+              <p>Light theme & dark mode included</p>
+              <button class="select-btn">Select</button>
+            </div>
+            <div class="pricing-card standard">
+              <h2>Pro</h2>
+              <h3>$100</h3>
+              <p>Advanced task filters & priorities</p>
+              <p>Focus stats and progress tracking</p>
+              <p>Sync across 3 devices</p>
+              <p>Workload simulation & burnout prevention</p>
+              <button class="select-btn">Select</button>
+            </div>
+            <div class="pricing-card pro">
+              <h2>Premium</h2>
+              <h3>$200</h3>
+              <p>Unlimited projects and tags</p>
+              <p>Deep analytics & habit reports</p>
+              <p>Team collaboration features</p>
+              <p>Neuro-adaptive daily planning AI</p>
+              <button class="select-btn">Select</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+      <footer>
+        <div class="footer-container">
+          <a href="" target="_blank">Privacy</a>
+          <a href="" target="_blank">Terms</a>
+          <a href="" target="_blank">Contact</a>
+          <p>Copyright 2025, &copy;TaskTactix</p>
+        </div>
+      </footer>
+  </body>
+</html>
